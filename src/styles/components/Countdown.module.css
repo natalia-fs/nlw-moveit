@@ -85,3 +85,28 @@
 .countdownButton:disabled > img {
   margin: .5rem;
 }
+
+@media(max-width: 720px){
+
+  .countdownContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .countdownContainer > div{
+    max-width: 40%;
+  }
+  .countdownContainer > div {
+    display: flex;
+    height: 9rem;
+  }
+  .countdownContainer > div span {
+    max-height: 8.5rem;
+    vertical-align: super;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 11rem; */
+  }
+}
+

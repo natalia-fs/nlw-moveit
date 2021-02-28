@@ -104,3 +104,11 @@
   filter: brightness(.9);
 }
 
+@media (max-width: 720px){
+  .challengeActive main {
+    padding: 1rem;
+  }
+  .challengeActive main img{
+    max-height: 4rem;
+  }
+}
